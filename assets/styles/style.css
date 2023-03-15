@@ -1,0 +1,269 @@
+*{ 
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Tilt Warp', cursive;
+
+}
+
+body {
+  background: linear-gradient(to top , rgba(228, 82, 233, 0.609), rgb(255, 115, 0));
+  display: flex;
+  height: 160vh;
+  flex-direction: column;
+  align-items: center;
+}
+nav{
+  background-color: rgba(240, 248, 255, 0);
+  height:3rem;
+  width:90vw;
+  display: flex;
+  padding-left: 5rem;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  font-size: xx-large;
+  padding-left: 2rem;
+}
+
+nav a:hover{
+  font-size: 2.1rem;
+  transform: scale(2,2);
+  color: rgba(255, 255, 255, 0.332);
+  height: 3rem;
+}
+
+
+.navcaja{
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px 10px 10px 10px;
+  background: linear-gradient(to right, rgba(255, 0, 204, 0.326), rgba(255, 4, 42, 0.794));
+  width: 65vw;
+}
+
+.logocaja{
+  align-items: center;
+}
+
+.logocaja img{
+  padding-right: 1vw;
+  height:5vh;
+}
+
+header{
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fondoheader{
+  display: flex;
+  background-image: url(../images/gym-1.jpg );
+  height: 60vh;
+  width: 80%;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 30px 30px 30px 30px;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 5vh;
+  flex-direction: column;
+  display: flex;
+  margin-top: 5vh;
+  
+}
+
+.botonabout{
+  display: none;
+}
+
+.tituloa{
+  width: 50vw;
+  height: 18vh;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.titulo2{
+  display:none;
+}
+
+main{
+  margin-top: 5rem;
+  width: 80vw;
+  height:50vh;
+  display: flex;
+  margin-top:5vh;
+  justify-content: center;
+}
+
+
+.imagen{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.texto{
+  width: 30vw;
+  height: 30vh;
+font-size: x-large;
+text-align: center;
+background-color: rgba(240, 248, 255, 0.206);
+display: flex;
+align-items: center;
+margin-top: 8vh;
+padding: 1.5rem;
+}
+
+
+.imgx{
+  width:30vw;
+  height: 30vh;
+
+}
+
+.imgx img{
+  width: 30vw;
+  height: 38vh;
+  border: 1px solid black;
+  border-radius: 30px 30px 30px 30px;
+
+}
+
+
+.about{
+
+  width: 80%;
+  height: 120vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cajasabout{
+  width: 40vw;
+  display: flex;
+  align-items: center;
+}
+
+.about img{
+  border: 1px solid black;
+  width: 50vw;
+  height: 30vh;
+
+}
+.texto1{
+  text-align: center;
+  width: 30vw;
+  padding: 1rem;
+}
+
+.titulocontact{
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.contactimages{
+  height: 80vh;
+  width: 60vw;
+}
+
+.ordenc{
+  width:60vw;
+}
+
+
+.emailynumero{
+  margin-top: 2rem;
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.tit{
+  font-size:2rem;
+  text-align: center;
+}
+
+
+.schedule{
+  margin-top: 2rem;
+  height: 80vh;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+}
+
+table, tr, th, td{
+  border:1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  width: 40vw;
+  height: 10vh;
+}
+
+table tr:hover{
+  background-color: rgba(255, 255, 255, 0.257);
+}
+
+thead{
+  height: 1rem;
+  background-color: chocolate;
+}
+
+tbody{
+  height: 1rem;
+  background-color: rgba(240, 248, 255, 0.276);
+}
+
+h1{
+  font-size:4rem;
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+
+.tips{
+margin-top: 2rem;
+width: 50vw;
+height: 70vh;
+display: flex;
+flex-direction: column;
+}
+
+.tips img{
+  width: 30vw;
+  height: 40vh;
+  margin-right: 2rem;
+}
+
+.cajaa{
+  display: flex;
+  border: 1px solid black;
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  background-color: rgba(240, 255, 255, 0.258);
+}
+
+.cajab{
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  background-color: rgba(240, 255, 255, 0.443);
+}
+
+.tit{
+  list-style-type: none;
+}
