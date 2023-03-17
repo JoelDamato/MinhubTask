@@ -691,6 +691,8 @@ nav{
 }
 
 .navcaja{
+  display:flex;
+  flex-wrap: wrap;
   margin-bottom: 4rem;
 }
 .sss{
@@ -702,7 +704,7 @@ nav{
 }
 
 .about img{
-  width: 40vw;
+  width: 30vw;
 }
 
 .contact{
